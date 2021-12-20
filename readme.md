@@ -1,2 +1,2 @@
 ## A [Python](https://www.python.org/) repo for Algorithms
-### Check [Dynamic Programming](theunderdogdev/algorithms/tree/master/dynamic-prog)
+### Check [Dynamic Programming](/algorithms/tree/master/dynamic-prog)
