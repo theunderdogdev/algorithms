@@ -27,7 +27,8 @@ def take_decisions():
     i = len(table) - 1
     j = len(table[0]) - 1
     max_val = table[i][j]
-    while i != 0 or j != 0:
+    while i != 0 and j != 0:
+        print(i, j)
         if max_val not in table[i - 1]:
             weights_included[i - 1] = 1
             j -= weights[i - 1]
@@ -40,3 +41,7 @@ def take_decisions():
 
 print(take_decisions())
 print(*table, sep="\n")
+
+# Enter weights separated by spaces: 2 4 6 9
+# Enter profits separated by spaces: 40 42 25 12
+# Enter knapsack capacity: 10
